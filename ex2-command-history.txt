@@ -1,0 +1,608 @@
+    1  cd /home
+    2  ls
+    3  cd ~/
+    4  ls
+    5  cd /home
+    6  ls
+    7  mkdir CIT173_Lab10
+    8  sudo mkdir CIT173_Lab10
+    9  ls
+   10  cd /var
+   11  ls
+   12  cd /log
+   13  cat log
+   14  cd /log
+   15  cd log
+   16  ls
+   17  cat lastlog
+   18  cd kern.log
+   19  cd /home
+   20  cd /var/log/kern.log
+   21  cd /var/log/kern
+   22  cd /var/log
+   23  ls
+   24  ls -l
+   25  ll
+   26  ls
+   27  cd /var
+   28  ls
+   29  cd /log
+   30  cd log
+   31  ls
+   32  /etc
+   33  cd /home
+   34  cd *Lab10
+   35  cd /home
+   36  journalctl -k | tail -n 25
+   37  cat journalctl -k | tail -n 25 > ~/CIT173_Lab10/kernel-log-last-25.txt
+   38  journalctl -k | tail -n 25
+   39  cat journalctl -k | tail -n 25 > ~/CIT173_Lab10/kernel-log-last-25.txt
+   40  journalctl -k | tail -n 25 > ~/CIT173_Lab10/kernel-log-last-25.txt
+   41  cd *Lab10
+   42  journalctl -k | tail -n 25 > ~/CIT173_Lab10/kernel-log-last-25.txt
+   43  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   44  sudo journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   45  ls
+   46  ll
+   47  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   48  sudo journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   49  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   50  sudo journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   51  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   52  sudo journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   53  cd /
+   54  ls -al | grep var
+   55  id
+   56  sudo su
+   57  cd
+   58  cd CIT173_Lab10/
+   59  ls
+   60  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   61  ls
+   62  whoami
+   63  cd /home
+   64  ls 0al
+   65  ls -al
+   66  cd /var/
+   67  ls
+   68  ls -al
+   69  cd lo
+   70  clera
+   71  cd
+   72  ls
+   73  cd CIT173_Lab10/
+   74  ls
+   75  cd ..
+   76  ls -al
+   77  sudo su
+   78  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+   79  cd /home
+   80  mkdir task
+   81  sudo mkdir task
+   82  ls -al
+   83  cd
+   84  pwd
+   85  mkdir new_test
+   86  ls- al
+   87  ls -al
+   88  ls -al | grep new
+   89  pwd
+   90  ls
+   91  cd *Lab10
+   92  ls
+   93  pwd
+   94  cd /home
+   95  pwd
+   96  ls
+   97  rm dir taks
+   98  rm dir tak
+   99  rm dir task
+  100  rm mkdir task
+  101  pwd
+  102  ls
+  103  cd /sutrisno
+  104  pwd
+  105  ls
+  106  cd
+  107  ls
+  108  pwd
+  109  rm kernel-log-last-25.txt
+  110  ls
+  111  cd *Lab10
+  112  journalctl -k | tail -n 25 > kernel-log-last-25.txt
+  113  ls
+  114  /syslog
+  115  /etc/logger
+  116  /etc
+  117  cat logger
+  118  syslog
+  119  pwd
+  120  cd /var/log
+  121  ls
+  122  cat message
+  123  cat lastlog
+  124  cd lastlog
+  125  echo lastlog
+  126  cat lastlog
+  127  /syslog
+  128  /etc
+  129  cd
+  130  pwd
+  131  ls
+  132  /etc
+  133  cd /etc
+  134  ls
+  135  cd
+  136  cd /etc/syslog.conf
+  137  cd /etc/syslog
+  138  cd /etc
+  139  cd
+  140  pwd
+  141  /var/log
+  142  cd /var/log
+  143  ls
+  144  lastlog
+  145  cd
+  146  /etc
+  147  cd /etc
+  148  ls
+  149  cd
+  150  pwd
+  151  man logger
+  152  logger -i -p syslog.panic "Help! I've fallen and I can't get up!"
+  153  cd /var/log
+  154  ls
+  155  cd
+  156  cd /etc
+  157  ls
+  158  cd
+  159  cd /var/log
+  160  ls
+  161  lastlog
+  162  cd
+  163  cd /syslogd
+  164  cd /etc
+  165  cd /syslogd
+  166  cd syslogd
+  167  ls
+  168  cd 
+  169  cd /var
+  170  ls
+  171  log
+  172  ls
+  173  cd log
+  174  ls
+  175  cat lastlog
+  176  lastlog
+  177  cd /var/log
+  178  ls
+  179  tmux new -s task
+  180  cd /home
+  181  man logger
+  182  logger Help! I've fallen and I can't get up!
+  183  cd /var
+  184  ls
+  185  cat log
+  186  cd /home
+  187  cat logger
+  188  cat lastlog
+  189  cd /var
+  190  cat lastlog
+  191  ls
+  192  cd log
+  193  ls
+  194  cat lastlog
+  195  cd lastlog
+  196  ls
+  197  cd /etc
+  198  ls
+  199  sudo vi /etc/rsyslog.conf
+  200  sudo vi /etc/systemd/journald.conf
+  201  sudo nano 
+  202  sudo nano /etc/systemd/journald.conf
+  203  sudo yum -y install nano
+  204  sudo nano /etc/systemd/journald.conf
+  205  sudo systemctl restart system-journald
+  206  sudo systemctl restart systemd-journald
+  207  sudo nano /etc/systemctl
+  208  sudo nano /etc/rsyslog.conf
+  209  systemctl enable rsyslog
+  210  systemctl start rsyslog
+  211  journalctl -n 1
+  212  logger "Help! I've fallen and I can't get up!"
+  213  journalctl -n 1
+  214  journalctl -n 25
+  215  logger "Help! I've fallen and I can't get up!"
+  216  journalctl -n 1
+  217  journalctl -k | tail -n 25
+  218  ls
+  219  cd *Lab10
+  220  ls
+  221  cat kernel-log-last-25.txt
+  222  logger "Help! I've fallen and I can't get up!"
+  223  journalctl -n 25
+  224  dmesg | tail -n 
+  225  dmesg | tail -n 25
+  226  logger "Help! I've fallen and I can't get up!"
+  227  dmesg | tail -n 1
+  228  dmesg
+  229  dmesg | tail -n 25
+  230  logger "Help! I've fallen and I can't get up!"
+  231  journalctl -n 1
+  232  journalctl
+  233  man journalctl
+  234  journalctl --user
+  235  journalctl --user-unit=1
+  236  dmesg
+  237  systemd
+  238  sudo nano /etc/systemd/journald.conf
+  239  logger "Help! I've fallen and I can't get up!"
+  240  dmesg
+  241  dmesg | tail -n 1
+  242  journalctl -n 1
+  243  journalctl -n 25
+  244  dmesg | tail -n 25
+  245  sudo nano /etc/systemd/journald.conf
+  246  logger "Help! I've fallen and I can't get up!"
+  247  dmesg | tail -n 5
+  248  journalctl --user-unit=PID 1
+  249  journalctl --user-unit=PID1
+  250  journalctl --user -unit=1
+  251  journalctl -n 25
+  252  cd /home
+  253  cd
+  254  ls
+  255  mkdir CIT173_Lab6
+  256  ls
+  257  sudo groupadd actors
+  258  sudo groupadd directors
+  259  sudo groupadd producers
+  260  pwd
+  261  ls
+  262  sudo useradd -m mhamill
+  263  ls
+  264  cd/home
+  265  cd /home
+  266  ls
+  267  cd
+  268  sudo usermod -c "Mark Hamill" mhamill
+  269  sudo passwd mhamill
+  270  sudo usermod -a -G actors mhamill
+  271  sudo useradd -m hford
+  272  sudo usermod -c "Harrison Ford" hford
+  273  sudo passwd hford
+  274  sudo usermod -a -G actors hford
+  275  sudo useradd -m cfisher
+  276  sudo usermod -c "Carrie Fisher" cfisher
+  277  sudo passwd cfisher
+  278  sudo usermod -a -G actors cfisher
+  279  sudo useradd -m glucas
+  280  sudo usermod -c "George Lucas" glucas
+  281  sudo passwd glucas
+  282  sudo usermod -a -G directors,producers glucas
+  283  sudo useradd -m gkurtz
+  284  sudo usermod -c "Gary Kurtz" gkurtz
+  285  sudo passwd gkurtz
+  286  sudo usermod -a -G producers gkurtz
+  287  cd /etc
+  288  ls
+  289  cd passwd
+  290  cd passwd-
+  291  cd
+  292  cp /etc/passwd CIT173_Lab6
+  293  cp /etc/groups CIT173_Lab6
+  294  cp /etc/group CIT173_Lab6
+  295  ls
+  296  cd *Lab6
+  297  ls
+  298  cd
+  299  history > CIT173_Lab6/ex1-command-history.txt
+  300  wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  301  sudo wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  302  ifconfig
+  303  sudo wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  304  ifconfig
+  305  ping google.com
+  306  ifconfig -a
+  307  ping www.google.com
+  308  ifconfig -a
+  309  ping www.google.com
+  310  ls
+  311  cd /etc
+  312  ls
+  313  cd /var
+  314  ls
+  315  cd /etc
+  316  cd rsyslog.d
+  317  ls
+  318  cd 
+  319  logger "Help! I've fallen and I can't get up!"
+  320  ls /var/log
+  321  cat lastlog
+  322  cd lastlog
+  323  lastlog
+  324  ls /var/log
+  325  cd journal
+  326  cd /journal
+  327  cd /var
+  328  ls
+  329  cd /log
+  330  cd log
+  331  ls
+  332  messages
+  333  messages
+  334  cat messages
+  335  sudo cat messages
+  336  journalctl
+  337  journalctl -n 1
+  338  ifconfig
+  339  /var
+  340  cd /var
+  341  ls
+  342  cd /log
+  343  cd log
+  344  ls
+  345  /var/log/message
+  346  /var/log/messages
+  347  sudo /var/log/messages
+  348  sudo cat /var/log/messages
+  349  sudo cat /var/log/messages | grep Help
+  350  cp /var/log/messages ~/CIT173_Lab10/my-system-log.txt
+  351  sudo cp /var/log/messages ~/CIT173_Lab10/my-system-log.txt
+  352  ls
+  353  cd *Lab10
+  354  ls
+  355  cd
+  356  cd /var
+  357  ls
+  358  cd //rsyslog.conf
+  359  /etc
+  360  cd /etc
+  361  ls
+  362  cp /etc/rsyslog.conf ~/CIT173_Lab10/rsyslog.conf
+  363  cd
+  364  ls
+  365  cd *Lab10
+  366  ls
+  367  sudo nano rsyslog.conf
+  368  cd
+  369  sudo nano rsyslog.conf
+  370  /etc
+  371  cd /etc
+  372  sudo nano rsyslog.conf
+  373  sudo vi rsyslog.conf
+  374  cd /etc/log
+  375  cd /var/log
+  376  ls
+  377  cp all-info.log ~/CIT173_Lab10
+  378  sudo cp all-info.log ~/CIT173_Lab10
+  379  sudo cp all-warnings.log ~/CIT173_Lab10
+  380  cd
+  381  ls
+  382  cd *Lab10
+  383  ls
+  384  cd
+  385  date
+  386  date --set="January 1, 1970 00:00:00"
+  387  date --set="JAN 1 1970 00:00:00"
+  388  suod date --set="JAN 1 1970 00:00:00"
+  389  sudo date --set="JAN 1 1970 00:00:00"
+  390  date
+  391  sudo yum -y install ntpd
+  392  sudo yum -y install ntp
+  393  sudo yum install ntp -y
+  394  ls /etc/ | grep npt
+  395  ls /etc/ | grep ntp
+  396  suod yum install ntp
+  397  reset
+  398  sudo yum update
+  399  ps aux
+  400  ps aux | grep yum
+  401  clear
+  402  sudo yum full-upgrade -y
+  403  sudo yum install ntp
+  404  ping 1.1.1.1 -c3
+  405  clear
+  406  ls
+  407  eixt
+  408  exit
+  409  ls
+  410  cd
+  411  ls
+  412  nano testfile
+  413  exit
+  414  sudo yum install ntp
+  415  date --set="4/14/2019 02:43:00"
+  416  sudo date --set="4/14/2019 02:43:00"
+  417  sudo yum install ntp
+  418  date --set="4/14/2019 14:45:00"
+  419  sudo date --set="4/14/2019 14:45:00"
+  420  cd /etc
+  421  ls
+  422  ls | grep ntp
+  423  sudo vi ntp.conf
+  424  sudo systemctl start ntp.server service
+  425  sudo systemctl start ntp.service
+  426  sudo systemctl start ntp.server
+  427  sudo systemctl start ntp.server.service
+  428  sudo systctl start ntp.server.service
+  429  sudo systemctl start ntp.server.service
+  430  sudo vi ntp.conf
+  431  sudo cp /usr/share/zoneinfo/singapore /etc/localtime
+  432  sudo cp /usr/share/zoneinfo/Singapore /etc/localtime
+  433  sudo systemctl restart ntp.server.service
+  434  sudo systemctl restart ntp
+  435  sudo systemctl restart ntpd.service 
+  436  date
+  437  cp ntp.conf ~/CIT173_Lab10/ntp.conf
+  438  history > ~/CIT173_Lab10/ex2-command-history.txt
+  439  cd
+  440  cd *Lab10
+  441  ls
+  442  crontab
+  443  fg
+  444  ping 1.1.1.1 &
+  445  fg
+  446  fg 1
+  447  fg
+  448  jobs
+  449  crontab -e
+  450  crontab -l
+  451  crontab -e
+  452  crontab -l
+  453  crontab -e
+  454  crontab -l > crontab
+  455  ls
+  456  cat crontab
+  457  crontab
+  458   crontab -l > new-crontab
+  459  git init
+  460  git remote add origin https://github.com/sutrisnoliecit173/CIT173_Lab10.git
+  461  git add --all
+  462  pwd
+  463  git add --all
+  464  id
+  465  ls -al
+  466  sudo chown sutrisno:sutrisno *
+  467  git add --all
+  468  git commit -m "Lab assignment 10"
+  469  push origin master
+  470  git push origin master
+  471  git remote add origin https://github.com/sutrisnoliecit173/CIT173_Lab10.git
+  472  git init
+  473  git remote add origin https://github.com/sutrisnoliecit173/CIT173_Lab10.git
+  474  git commit -m "Lab assignment 10"
+  475  rm -rf .git
+  476  git init
+  477  git remote add origin https://github.com/sutrisnoliecit173/CIT173_Lab10.git
+  478  git add --all
+  479  git commit -m "Lab assignment 10"
+  480  git push origin master
+  481  cd .git
+  482  ls
+  483  cat config
+  484  history | less
+  485  cd ..
+  486  ls
+  487  echo "done" > readme.md
+  488  git push origin master
+  489  ifconfig
+  490  cd .git/
+  491  cat config 
+  492  history | more
+  493  history 
+  494  ping 1.1.1.1
+  495  reboot
+  496  git push origin master
+  497  cd *Lab10
+  498  git push origin master
+  499  ls -al
+  500  date
+  501  sudo date --set="4/15/2019 23:05:00"
+  502  ls -l
+  503  ls
+  504  ping 1.1.1.1
+  505  ping www.google.com
+  506  sudo vi ntp.conf
+  507  cd /etc
+  508  sudo vi ntp.conf
+  509  sudo date --set="4/15/2019 23:24:00"
+  510  cd
+  511  ls
+  512  pwd
+  513  sudo wget https://github.com/RenoTechnologyAcademy/CIT173_Lab6_Files/archive/master.tar.gz
+  514  sudo tar -xvzf CIT173_Lab6_Files-master/star-wars-budget.txt
+  515  ls
+  516  cd master.tar.gz
+  517   master.tar.gz
+  518  cat master.tar.gz
+  519  ls
+  520  sudo tar -xvzf CIT173_Lab6_Files-master/star-wars-budget.txt
+  521  ls
+  522  cd master.tar.gz
+  523  master.tar.gz
+  524  cd CIT173_Lab6_Files-master
+  525  cd CIT173_Lab6
+  526  ls
+  527  sudo tar -xvzf CIT173_Lab6_Files-master/star-wars-budget.txt
+  528  cd
+  529  ls
+  530  ls -l
+  531  sudo chown sutrisno:sutrisno *
+  532  ls -l
+  533  sudo tar -xvzf CIT173_Lab6_Files-master/star-wars-budget.txt
+  534  ls
+  535  cd CIT173_Lab6_Files-master
+  536  cd master.tar.gz
+  537  sudo tar -xvzf master.tar.gz
+  538  cd /var
+  539  ks
+  540  ls
+  541  mkdir StarWars
+  542  sudo mkdir StarWars
+  543  ls
+  544  cd StarWars
+  545  ls l
+  546  ls -l
+  547  cd /var
+  548  ls -l
+  549  sudo chmod 757 StarWars
+  550  ls -l
+  551  cd StarWars
+  552  LS
+  553  ls
+  554  sudo mkdir finance
+  555  sudo mkdir directing
+  556  sudo mkdir creative
+  557  cd
+  558  cd CIT173_Lab6_Files-master
+  559  ls
+  560  mv star-wars-budget.txt /var/StarWars/finance
+  561  sudo mv star-wars-budget.txt /var/StarWars/
+  562  ls
+  563  cd
+  564  cd /var
+  565  cd StarWars
+  566  ls
+  567  sudo mv star-wars-budget.txt finance
+  568  ls
+  569  cd finance
+  570  ls
+  571  cd
+  572  cd CIT173_Lab6_Files-master
+  573  sudo mv star-wars-journal.txt /var/StarWars/directing
+  574  sudo mv star-wars-script.txt /var/StarWars/creative
+  575  cd /var
+  576  cd StarWars
+  577  ls
+  578  ls -l
+  579  cd finance
+  580  ls -l
+  581  cd
+  582  cd -
+  583  sudo chown gkurtz:producers star-wars-budget.txt
+  584  ls
+  585  ls -l
+  586  sudo chmod 750 star-wars-budget.txt
+  587  ls -l
+  588  cd directing
+  589  cd StarWars
+  590  cd /var
+  591  cd StarWars
+  592  ls
+  593  cd directing
+  594  ls
+  595  ls -l
+  596  sudo chown glucas:directors star-wars-journal.txt
+  597  sudo chmod 775 star-wars-journal.txt
+  598  ls -l
+  599  cd -
+  600  cd creative
+  601  ls -l
+  602  sudo chown glucas:actors star-wars-script.txt
+  603  ls
+  604  ls -l
+  605  sudo chmod 750 star-wars-script.txt
+  606  ls -l
+  607  history
+  608  history > ~/CIT173_Lab6/ex2-command-history.txt
